@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Test1239" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-31T06:42:07" hostname="MacBook-Pro-3.local" time="0.014">
+  <properties/>
+  <testcase name="test" classname="test.Test1239" time="0.014"/>
+  <system-out><![CDATA[https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/ [MEDIUM]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
