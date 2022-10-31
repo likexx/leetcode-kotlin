@@ -1,7 +1,7 @@
 # leetcode-kotlin
 
 Kotlin Solutions:  
-(https://github.com/likexx/leetcode-kotlin/tree/main/app/src/main/kotlin/test)[https://github.com/likexx/leetcode-kotlin/tree/main/app/src/main/kotlin/test]  
+https://github.com/likexx/leetcode-kotlin/tree/main/app/src/main/kotlin/test
 
   
 To Run the Solutions, execute
