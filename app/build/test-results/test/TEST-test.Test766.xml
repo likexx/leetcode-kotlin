@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.Test766" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-31T06:49:45" hostname="MacBook-Pro-3.local" time="0.026">
-  <properties/>
-  <testcase name="test" classname="test.Test766" time="0.026"/>
-  <system-out><![CDATA[https://leetcode.com/problems/toeplitz-matrix/ [MEDIUM]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

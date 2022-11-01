@@ -5,7 +5,7 @@ import kotlin.test.Test
 import kotlin.test.*
 
 class Test1239 {
-    val solution = Solution1239()
+    private val solution = Solution1239()
 
     @Before
     fun setup() {
