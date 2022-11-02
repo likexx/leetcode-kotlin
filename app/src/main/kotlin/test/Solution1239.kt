@@ -1,12 +1,10 @@
 package test
 
+import test.annotation.Leetcode
 import kotlin.math.max
-
-class Solution1239 : LeetcodeSolution {
-
-    override val level = LeetcodeSolution.Level.MEDIUM
-    override val link = "https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/"
-
+class Solution1239 {
+    @Leetcode(level = Leetcode.Level.MEDIUM,
+        link = "https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/")
     class Solution {
         fun maxLength(arr: List<String>): Int {
             fun isDuplicated(buf: String): Boolean {

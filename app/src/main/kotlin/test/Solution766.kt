@@ -1,9 +1,9 @@
 package test
 
-class Solution766 : LeetcodeSolution {
-    override val level = LeetcodeSolution.Level.MEDIUM
-    override val link = "https://leetcode.com/problems/toeplitz-matrix/"
-    
+import test.annotation.Leetcode
+
+class Solution766 {
+    @Leetcode(level = Leetcode.Level.MEDIUM, link = "https://leetcode.com/problems/toeplitz-matrix/")
     class Solution {
         fun isToeplitzMatrix(matrix: Array<IntArray>): Boolean {
             val m=matrix.size

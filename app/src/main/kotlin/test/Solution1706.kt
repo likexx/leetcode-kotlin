@@ -1,12 +1,9 @@
 package test
 
-class Solution1706 : LeetcodeSolution {
-    override val level: LeetcodeSolution.Level
-        get() = LeetcodeSolution.Level.MEDIUM
+import test.annotation.Leetcode
 
-    override val link: String
-        get() = "https://leetcode.com/problems/where-will-the-ball-fall/"
-
+class Solution1706 {
+    @Leetcode(level = Leetcode.Level.MEDIUM, link = "https://leetcode.com/problems/where-will-the-ball-fall/")
     class Solution {
         fun findBall(grid: Array<IntArray>): IntArray {
             val m = grid.size

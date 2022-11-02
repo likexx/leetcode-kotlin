@@ -4,14 +4,7 @@ import org.junit.Before
 import kotlin.test.Test
 import kotlin.test.*
 
-class Test1239 {
-    private val solution = Solution1239()
-
-    @Before
-    fun setup() {
-        println("${solution.link} [${solution.level}]")
-    }
-
+class Test1239 : TestBase<Solution1239.Solution>(Solution1239.Solution()) {
 
     @Test 
     fun test() {
