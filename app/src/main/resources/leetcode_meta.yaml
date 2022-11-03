@@ -1,0 +1,16 @@
+- id: 766
+  level: MEDIUM
+  link: https://leetcode.com/problems/toeplitz-matrix/
+
+- id: 1239
+  level: MEDIUM
+  link: https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
+
+
+- id: 1706
+  level: MEDIUM
+  link: https://leetcode.com/problems/where-will-the-ball-fall/
+
+- id: 433
+  level: MEDIUM
+  link: https://leetcode.com/problems/minimum-genetic-mutation/

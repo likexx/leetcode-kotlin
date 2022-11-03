@@ -3,7 +3,7 @@ package test
 import test.annotation.Leetcode
 
 class Solution433 {
-    @Leetcode(level = Leetcode.Level.MEDIUM, link = "https://leetcode.com/problems/minimum-genetic-mutation/")
+    @Leetcode(433)
     class Solution {
         fun minMutation(start: String, end: String, bank: Array<String>): Int {
             fun isNeighbor(s1:String, s2:String): Boolean {

@@ -3,7 +3,7 @@ package test
 import test.annotation.Leetcode
 
 class Solution1706 {
-    @Leetcode(level = Leetcode.Level.MEDIUM, link = "https://leetcode.com/problems/where-will-the-ball-fall/")
+    @Leetcode(1706)
     class Solution {
         fun findBall(grid: Array<IntArray>): IntArray {
             val m = grid.size

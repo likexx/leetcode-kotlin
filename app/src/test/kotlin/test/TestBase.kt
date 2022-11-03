@@ -2,6 +2,7 @@ package test
 
 import org.junit.Before
 import test.annotation.Leetcode
+import test.annotation.LeetcodeMetaConfig
 import kotlin.reflect.KClass
 
 abstract class TestBase<T: Any>(val solution: T)  {
@@ -12,6 +13,7 @@ abstract class TestBase<T: Any>(val solution: T)  {
 
     fun displayAnnotation(c: KClass<T>) {
         val lc = c.annotations.find { it is Leetcode } as? Leetcode?
-        println("${lc?.link} [${lc?.level}]")
+        val metaData = LeetcodeMetaConfig.getMetaFromID(lc!!.id)
+        print("${metaData.link} [${metaData.level}]")
     }
 }
