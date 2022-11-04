@@ -14,3 +14,7 @@
 - id: 433
   level: MEDIUM
   link: https://leetcode.com/problems/minimum-genetic-mutation/
+
+- id: 345
+  level: EASY
+  link: https://leetcode.com/problems/reverse-vowels-of-a-string/
