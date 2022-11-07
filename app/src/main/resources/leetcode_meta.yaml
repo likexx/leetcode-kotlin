@@ -18,3 +18,11 @@
 - id: 345
   level: EASY
   link: https://leetcode.com/problems/reverse-vowels-of-a-string/
+
+- id: 1323
+  level: EASY
+  link: https://leetcode.com/problems/maximum-69-number/
+
+- id: 952
+  level: HARD
+  link: https://leetcode.com/problems/largest-component-size-by-common-factor/
