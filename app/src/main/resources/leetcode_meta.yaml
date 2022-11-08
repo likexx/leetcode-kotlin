@@ -26,3 +26,11 @@
 - id: 952
   level: HARD
   link: https://leetcode.com/problems/largest-component-size-by-common-factor/
+
+- id: 1544
+  level: EASY
+  link: https://leetcode.com/problems/make-the-string-great/
+
+- id: 2454
+  level: HARD
+  link: https://leetcode.com/problems/next-greater-element-iv/

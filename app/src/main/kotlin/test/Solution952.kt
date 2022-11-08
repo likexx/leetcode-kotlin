@@ -57,7 +57,6 @@ class Solution952 {
 
             val numberGroups = hashMapOf<Int, Int>()
             nums.forEach {
-                val n = it
                 var factors = getPrimeFactors(it)
                 numberGroups[it] = factors[0]
                 for (i in 0..factors.size-2) {
