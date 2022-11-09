@@ -12,7 +12,7 @@ import java.nio.file.Path
 @Retention(AnnotationRetention.RUNTIME)
 annotation  class Leetcode (val id: Int)
 
-data class LeetcodeMetaInfo(val id: Int, val level: String, val link: String) {
+data class LeetcodeMetaInfo(val id: Int, val level: String, val link: String, val rating: Int) {
 }
 
 object LeetcodeMetaConfig
@@ -29,6 +29,6 @@ object LeetcodeMetaConfig
     }
 
     fun getMetaFromID(id: Int): LeetcodeMetaInfo {
-        return leetcodeMetatable[id] ?: LeetcodeMetaInfo(id=0, level = "", link= "")
+        return leetcodeMetatable[id] ?: LeetcodeMetaInfo(id=0, level = "", link= "", rating = 0)
     }
 }
