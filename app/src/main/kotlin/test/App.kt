@@ -6,13 +6,6 @@ package test
 import java.util.PriorityQueue
 import kotlin.math.abs
 
-class App {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
-}
-
 fun main() {
 //    val s=Solution835.Solution()
 //    print(s.largestOverlap(arrayOf(intArrayOf(0,1), intArrayOf(1,1)), arrayOf(intArrayOf(1,1), intArrayOf(1,0))))

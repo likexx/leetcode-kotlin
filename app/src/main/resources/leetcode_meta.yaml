@@ -2,54 +2,70 @@
   level: MEDIUM
   link: https://leetcode.com/problems/toeplitz-matrix/
   rating: 1249
+  hint:
 
 - id: 1239
   level: MEDIUM
   link: https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
   rating: 1719
-
+  hint:
 
 - id: 1706
   level: MEDIUM
   link: https://leetcode.com/problems/where-will-the-ball-fall/
   rating: 1764
+  hint:
 
 - id: 433
   level: MEDIUM
   link: https://leetcode.com/problems/minimum-genetic-mutation/
   rating: 0
+  hint:
 
 - id: 345
   level: EASY
   link: https://leetcode.com/problems/reverse-vowels-of-a-string/
   rating: 0
+  hint:
 
 - id: 1323
   level: EASY
   link: https://leetcode.com/problems/maximum-69-number/
   rating: 1193
+  hint:
 
 - id: 952
   level: HARD
   link: https://leetcode.com/problems/largest-component-size-by-common-factor/
   rating: 2272
+  hint: factor decomposition + union find of factors + hashmap
 
 - id: 1544
   level: EASY
   link: https://leetcode.com/problems/make-the-string-great/
   rating: 1344
+  hint: stack
 
 - id: 2454
   level: HARD
   link: https://leetcode.com/problems/next-greater-element-iv/
   rating: 2175
+  hint: stack
 
 - id: 901
   level: MEDIUM
   link: https://leetcode.com/problems/online-stock-span/
   rating: 1708
+  hint: monotonic stack, O(n)
 
 - id: 2104
   level: MEDIUM
   link: https://leetcode.com/problems/sum-of-subarray-ranges/
   rating: 1504
+  hint: two monotonic stacks, O(n)
+
+- id: 1047
+  level: EASY
+  link: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+  rating: 1286
+  hint: stack, O(n)

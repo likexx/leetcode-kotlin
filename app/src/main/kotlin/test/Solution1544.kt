@@ -7,6 +7,20 @@ class Solution1544 {
     @Leetcode(1544)
     class Solution {
         fun makeGood(s: String): String {
+            val offset = kotlin.math.abs('A'-'a')
+            val stack = mutableListOf<Char>()
+
+            for (c in s) {
+                if (stack.size>0 && kotlin.math.abs(c-stack.last())==offset) {
+                    stack.removeAt(stack.size-1)
+                } else {
+                    stack.add(c)
+                }
+            }
+
+            return stack.joinToString("")
+        }
+        fun makeGood_First(s: String): String {
             var indexes = mutableListOf<Int>()
             for (i in 0..s.length-1) {
                 indexes.add(i)
