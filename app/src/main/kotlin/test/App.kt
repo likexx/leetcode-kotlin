@@ -3,15 +3,16 @@
  */
 package test
 
+import test.annotation.LeetcodeMetaConfig
 import java.util.PriorityQueue
 import kotlin.math.abs
 
 fun main() {
-//    val s=Solution835.Solution()
-//    print(s.largestOverlap(arrayOf(intArrayOf(0,1), intArrayOf(1,1)), arrayOf(intArrayOf(1,1), intArrayOf(1,0))))
-    val s=Solution49.Solution()
-    println(s.groupAnagrams(arrayOf("eat","tea","tan","ate","nat","bat")))
-    println(s.groupAnagrams(arrayOf("bdddddddddd","bbbbbbbbbbc")))
+    val questions = LeetcodeMetaConfig.getQuestionList()
+    for (q in questions) {
+        println(q)
+        println("================================")
+    }
 }
 
 class Solution {

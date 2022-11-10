@@ -36,4 +36,8 @@ object LeetcodeMetaConfig
     fun getMetaFromID(id: Int): LeetcodeMetaInfo {
         return leetcodeMetatable[id] ?: LeetcodeMetaInfo(id=0, level = "", link= "", rating = 0, hint = "")
     }
+
+    fun getQuestionList(): List<LeetcodeMetaInfo> {
+        return leetcodeMetatable.values.toList()
+    }
 }

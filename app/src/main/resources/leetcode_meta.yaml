@@ -69,3 +69,9 @@
   link: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
   rating: 1286
   hint: stack, O(n)
+
+- id: 41
+  level: HARD
+  link: https://leetcode.com/problems/first-missing-positive/
+  rating: 0
+  hint: use sign as flag for existence without losing original positive integer information
