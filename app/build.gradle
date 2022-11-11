@@ -44,7 +44,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'test.AppKt'
+    mainClass = 'solution.AppKt'
 }
 
 test {

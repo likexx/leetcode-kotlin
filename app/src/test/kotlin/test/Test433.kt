@@ -1,6 +1,7 @@
 package test
 
 import org.junit.Test
+import solution.Solution433
 import kotlin.test.assertEquals
 
 class Test433 : TestBase<Solution433.Solution>(Solution433.Solution()) {

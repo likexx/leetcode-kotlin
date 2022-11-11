@@ -1,8 +1,8 @@
 package test
 
 import org.junit.Before
-import test.annotation.Leetcode
-import test.annotation.LeetcodeMetaConfig
+import solution.annotation.Leetcode
+import solution.annotation.LeetcodeMetaConfig
 import kotlin.reflect.KClass
 
 abstract class TestBase<T: Any>(val solution: T)  {

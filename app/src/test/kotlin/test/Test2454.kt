@@ -1,6 +1,7 @@
 package test
 
 import org.junit.Test
+import solution.Solution2454
 import kotlin.test.assertContentEquals
 import kotlin.test.assertEquals
 
@@ -25,7 +26,7 @@ class Test2454 : TestBase<Solution2454.Solution>(Solution2454.Solution()) {
 
     @Test
     fun test3() {
-        val s = Solution2454.Solution()
+        val s = solution
         assertContentEquals(intArrayOf(-1,-1), s.secondGreaterElement(intArrayOf(3,3)))
         assertContentEquals(intArrayOf(9,6,6,-1,-1), s.secondGreaterElement(intArrayOf(2,4,0,9,6)))
         assertContentEquals(intArrayOf(-1,-1), s.secondGreaterElement(intArrayOf(3,3)))

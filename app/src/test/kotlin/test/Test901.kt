@@ -1,6 +1,7 @@
 package test
 
 import org.junit.Test
+import solution.Solution901
 import kotlin.test.assertEquals
 
 class Test901 : TestBase<Solution901.StockSpanner>(Solution901.StockSpanner()) {

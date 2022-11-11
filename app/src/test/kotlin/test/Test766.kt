@@ -1,5 +1,6 @@
 package test
 
+import solution.Solution766
 import kotlin.test.Test
 import kotlin.test.*
 

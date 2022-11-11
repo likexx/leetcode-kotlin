@@ -1,6 +1,7 @@
 package test
 
 import org.junit.Before
+import solution.Solution1323
 import kotlin.test.Test
 import kotlin.test.*
 
@@ -8,7 +9,7 @@ class Test1323 : TestBase<Solution1323.Solution>(Solution1323.Solution()) {
 
     @Test
     fun test1() {
-        val s = Solution1323.Solution()
+        val s = solution
         assertEquals(9999, s.maximum69Number(9996))
         assertEquals(9999, s.maximum69Number(9999))
         assertEquals(99999, s.maximum69Number(99969))
