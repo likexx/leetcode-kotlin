@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution325 {
+    @Leetcode(325)
     class Solution {
         fun maxSubArrayLen(nums: IntArray, k: Int): Int {
             val indexes= mutableMapOf<Int, Int>()

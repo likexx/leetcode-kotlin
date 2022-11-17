@@ -1,8 +1,10 @@
 package solution
 
+import solution.annotation.Leetcode
 import java.util.PriorityQueue
 
 class Solution692 {
+    @Leetcode(692)
     class Solution {
         fun topKFrequent(words: Array<String>, k: Int): List<String> {
             val result= mutableListOf<String>()

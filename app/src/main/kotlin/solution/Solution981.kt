@@ -1,9 +1,11 @@
 package solution
 
+import solution.annotation.Leetcode
 import kotlin.math.ceil
 import kotlin.math.roundToInt
 
 class Solution981 {
+    @Leetcode(981)
     class TimeMap() {
         val data = mutableMapOf<String, MutableList<Pair<Int, String>>>()
 

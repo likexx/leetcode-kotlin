@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution353 {
+    @Leetcode(353)
     class SnakeGame(val width: Int, val height: Int, val food: Array<IntArray>) {
         val visited = mutableListOf<Pair<Int, Int>>()
         var head = Pair(0,0)

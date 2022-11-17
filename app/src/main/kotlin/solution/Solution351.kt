@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution351 {
+    @Leetcode(351)
     class Solution {
         fun numberOfPatterns(m: Int, n: Int): Int {
             val cache= hashMapOf<Int, List<List<Int>>>()

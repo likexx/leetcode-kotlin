@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution1662 {
+    @Leetcode(1662)
     class Solution {
         fun arrayStringsAreEqual(word1: Array<String>, word2: Array<String>): Boolean {
             val sb1 = StringBuilder()

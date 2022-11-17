@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution343 {
+    @Leetcode(343)
     class Solution {
         fun integerBreak(n: Int): Int {
             if (n==1 || n==2) {

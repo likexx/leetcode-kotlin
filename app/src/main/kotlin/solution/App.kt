@@ -8,6 +8,11 @@ import solution.annotation.LeetcodeMetaInfo
 import java.io.File
 import java.util.PriorityQueue
 
+fun extractQuestionNameFromUrl(url: String): String {
+    val paths = url.split("/").filter { it.isNotEmpty() }
+    val tokens = paths.last().split("-")
+    return tokens.joinToString(" ")
+}
 fun main() {
     val questions = LeetcodeMetaConfig.getQuestionList().groupBy { it.level }
     val sortedQuestions = mutableListOf<LeetcodeMetaInfo>()
@@ -20,8 +25,9 @@ fun main() {
     builder.append("| ------------- | ---------- | ---------- | -------- | ---- |\n")
 
     for (q in sortedQuestions) {
+        val name = extractQuestionNameFromUrl(q.link)
         builder.append("| ")
-        builder.append("[${q.id}](${q.link}) | ")
+        builder.append("${q.id}. [$name](${q.link}) | ")
         builder.append("${q.level} | ")
         builder.append("${q.rating} | ")
         builder.append("[link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution${q.id}.kt) | ")

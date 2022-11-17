@@ -1,5 +1,7 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution337 {
     /**
      * Example:
@@ -11,6 +13,7 @@ class Solution337 {
      *     var right: TreeNode? = null
      * }
      */
+    @Leetcode(337)
     class Solution {
         fun rob(root: TreeNode?): Int {
             val cache= mutableMapOf<Pair<TreeNode?, Boolean>, Int>()

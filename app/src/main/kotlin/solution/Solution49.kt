@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution49 {
+    @Leetcode(49)
     class Solution {
         fun groupAnagrams(strs: Array<String>): List<List<String>> {
             val buildKey = { s:String ->

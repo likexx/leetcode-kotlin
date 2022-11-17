@@ -2,37 +2,30 @@
   level: MEDIUM
   link: https://leetcode.com/problems/toeplitz-matrix/
   rating: 1249
-  hint:
 
 - id: 1239
   level: MEDIUM
   link: https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
   rating: 1719
-  hint:
 
 - id: 1706
   level: MEDIUM
   link: https://leetcode.com/problems/where-will-the-ball-fall/
   rating: 1764
-  hint:
 
 - id: 433
   level: MEDIUM
   link: https://leetcode.com/problems/minimum-genetic-mutation/
-  rating: 0
-  hint:
 
 - id: 345
   level: EASY
   link: https://leetcode.com/problems/reverse-vowels-of-a-string/
   rating: 0
-  hint:
 
 - id: 1323
   level: EASY
   link: https://leetcode.com/problems/maximum-69-number/
   rating: 1193
-  hint:
 
 - id: 952
   level: HARD
@@ -73,7 +66,6 @@
 - id: 41
   level: HARD
   link: https://leetcode.com/problems/first-missing-positive/
-  rating: 0
   hint: use sign as flag for existence without losing original positive integer information
 
 - id: 1003
@@ -85,11 +77,10 @@
 - id: 26
   level: EASY
   link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-  rating: 0
-  hint:
 
 - id: 1551
   level: MEDIUM
+  rating: 1293
   link: https://leetcode.com/problems/minimum-operations-to-make-array-equal/
   hint: >
       for nums[i] and nums[j], the number of operations to make them equal is j-i ( ((2*j+1)-(2*i+1))/2 ). 
@@ -117,3 +108,79 @@
   level: HARD
   link: https://leetcode.com/problems/largest-rectangle-in-histogram/
   hint: monotonous stack, increasing
+
+- id: 38
+  level: MEDIUM
+  link: https://leetcode.com/problems/count-and-say/
+
+- id: 49
+  level: MEDIUM
+  link: https://leetcode.com/problems/group-anagrams/
+
+- id: 325
+  level: MEDIUM
+  link: https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
+
+- id: 331
+  level: MEDIUM
+  link: https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/
+
+- id: 334
+  level: MEDIUM
+  link: https://leetcode.com/problems/increasing-triplet-subsequence/
+
+- id: 337
+  level: MEDIUM
+  link: https://leetcode.com/problems/house-robber-iii/
+
+- id: 343
+  level: MEDIUM
+  link: https://leetcode.com/problems/integer-break/
+
+- id: 351
+  level: MEDIUM
+  link: https://leetcode.com/problems/android-unlock-patterns/
+
+- id: 353
+  level: MEDIUM
+  link: https://leetcode.com/problems/design-snake-game/
+  hint:
+
+- id: 523
+  level: MEDIUM
+  link: https://leetcode.com/problems/continuous-subarray-sum/
+
+- id: 692
+  level: MEDIUM
+  link: https://leetcode.com/problems/top-k-frequent-words/
+
+- id: 835
+  level: MEDIUM
+  rating: 1969
+  link: https://leetcode.com/problems/image-overlap/
+
+- id: 976
+  level: EASY
+  link: https://leetcode.com/problems/largest-perimeter-triangle/
+  rating: 1340
+
+- id: 981
+  level: MEDIUM
+  link: https://leetcode.com/problems/time-based-key-value-store/
+  rating: 1574
+
+- id: 1328
+  level: MEDIUM
+  link: https://leetcode.com/problems/break-a-palindrome/
+  rating: 1473
+
+- id: 1662
+  level: EASY
+  link: https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+  rating: 1217
+
+- id: 2095
+  level: MEDIUM
+  link: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
+  rating: 1324
+

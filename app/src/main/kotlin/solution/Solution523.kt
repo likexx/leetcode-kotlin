@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution523 {
+    @Leetcode(523)
     class Solution {
         fun checkSubarraySum(nums: IntArray, k: Int): Boolean {
             val sums = hashMapOf<Int, Int>()

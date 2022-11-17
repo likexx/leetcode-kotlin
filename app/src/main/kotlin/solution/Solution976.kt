@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution976 {
+    @Leetcode(976)
     class Solution {
         fun largestPerimeter(nums: IntArray): Int {
             val sortedNums = nums.sortedDescending()

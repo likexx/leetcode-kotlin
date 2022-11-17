@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution331 {
+    @Leetcode(331)
     class Solution {
         fun isValidSerialization(preorder: String): Boolean {
             if (preorder=="#") {

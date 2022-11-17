@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution1328 {
+    @Leetcode(1328)
     class Solution {
         fun breakPalindrome(palindrome: String): String {
             if (palindrome.length==1) {

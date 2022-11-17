@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution38 {
+    @Leetcode(38)
     class Solution {
         fun countAndSay(n: Int): String {
             fun count(s: String): String {

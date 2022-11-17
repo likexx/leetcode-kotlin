@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution334 {
+    @Leetcode(334)
     class Solution {
         fun increasingTriplet(nums: IntArray): Boolean {
             val leftMin= IntArray(nums.size)

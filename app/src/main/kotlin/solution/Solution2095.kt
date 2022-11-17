@@ -1,6 +1,9 @@
 package solution
 
+import solution.annotation.Leetcode
+
 class Solution2095 {
+    @Leetcode(2095)
     class Solution {
         fun deleteMiddle(head: ListNode?): ListNode? {
             var fast=head
