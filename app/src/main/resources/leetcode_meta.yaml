@@ -101,3 +101,18 @@
   level: MEDIUM
   link: https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
   hint: union find
+
+- id: 223
+  level: MEDIUM
+  link: https://leetcode.com/problems/rectangle-area/
+  hint: interval overlapping problem
+
+- id: 42
+  level: HARD
+  link: https://leetcode.com/problems/trapping-rain-water/
+  hint: monotonous stack (decreasing), similar to question 84 (https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+- id: 84
+  level: HARD
+  link: https://leetcode.com/problems/largest-rectangle-in-histogram/
+  hint: monotonous stack, increasing
