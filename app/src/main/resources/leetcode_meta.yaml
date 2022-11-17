@@ -101,6 +101,7 @@
   level: MEDIUM
   link: https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
   hint: union find
+  rating: 2034
 
 - id: 223
   level: MEDIUM

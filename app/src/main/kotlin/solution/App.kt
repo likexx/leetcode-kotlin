@@ -4,14 +4,31 @@
 package solution
 
 import solution.annotation.LeetcodeMetaConfig
+import solution.annotation.LeetcodeMetaInfo
+import java.io.File
 import java.util.PriorityQueue
 
 fun main() {
-    val questions = LeetcodeMetaConfig.getQuestionList()
-    for (q in questions) {
-        println(q)
-        println("================================")
+    val questions = LeetcodeMetaConfig.getQuestionList().groupBy { it.level }
+    val sortedQuestions = mutableListOf<LeetcodeMetaInfo>()
+    for (k in arrayOf("EASY", "MEDIUM", "HARD")) {
+        sortedQuestions.addAll(questions.getOrDefault(k, listOf()))
     }
+
+    val builder = StringBuilder()
+    builder.append("| Leetcode Link | Difficulty | <div style=\"width:80px\">[ELO Rating](https://zerotrac.github.io/leetcode_problem_rating)</div> | Solution | Hint |\n")
+    builder.append("| ------------- | ---------- | ---------- | -------- | ---- |\n")
+
+    for (q in sortedQuestions) {
+        builder.append("| ")
+        builder.append("[${q.id}](${q.link}) | ")
+        builder.append("${q.level} | ")
+        builder.append("${q.rating} | ")
+        builder.append("[link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution${q.id}.kt) | ")
+        builder.append("${q.hint} | ")
+        builder.append("|\n")
+    }
+    File("./solution_list.md").writeText(builder.toString())
 }
 
 class Solution {
