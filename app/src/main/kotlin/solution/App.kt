@@ -25,7 +25,7 @@ fun main() {
         builder.append("${q.level} | ")
         builder.append("${q.rating} | ")
         builder.append("[link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution${q.id}.kt) | ")
-        builder.append("${q.hint} | ")
+        builder.append("${q.hint?:""} | ")
         builder.append("|\n")
     }
     File("./solution_list.md").writeText(builder.toString())
