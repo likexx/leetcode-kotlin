@@ -4,7 +4,7 @@ Kotlin Solutions:
 https://github.com/likexx/leetcode-kotlin/tree/main/app/src/main/kotlin/solution
 
 Here is the list for current solved problems and some related information (level/hint/elo rating/link to leetcode/etc.)  
-[List of solved problems](./app/solution_list.md)
+[List of solved problems](https://likexx.github.io/leetcode-kotlin/)
 
 To Run the Solutions, execute
 ```

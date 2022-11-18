@@ -1,4 +1,4 @@
-| Leetcode Link | Difficulty | <div style="width:80px">[ELO Rating](https://zerotrac.github.io/leetcode_problem_rating)</div> | Solution | Hint |
+| Leetcode Link | Difficulty | [ELO Rating](https://zerotrac.github.io/leetcode_problem_rating) | Solution | Hint |
 | ------------- | ---------- | ---------- | -------- | ---- |
 | 263. [ugly number](https://leetcode.com/problems/ugly-number/) | EASY | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution263.kt) |  | |
 | 1544. [make the string great](https://leetcode.com/problems/make-the-string-great/) | EASY | 1344 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution1544.kt) | stack | |

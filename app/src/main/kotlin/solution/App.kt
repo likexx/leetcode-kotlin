@@ -21,7 +21,7 @@ fun main() {
     }
 
     val builder = StringBuilder()
-    builder.append("| Leetcode Link | Difficulty | <div style=\"width:80px\">[ELO Rating](https://zerotrac.github.io/leetcode_problem_rating)</div> | Solution | Hint |\n")
+    builder.append("| Leetcode Link | Difficulty | [ELO Rating](https://zerotrac.github.io/leetcode_problem_rating) | Solution | Hint |\n")
     builder.append("| ------------- | ---------- | ---------- | -------- | ---- |\n")
 
     for (q in sortedQuestions) {
