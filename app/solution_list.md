@@ -1,5 +1,6 @@
 | Leetcode Link | Difficulty | <div style="width:80px">[ELO Rating](https://zerotrac.github.io/leetcode_problem_rating)</div> | Solution | Hint |
 | ------------- | ---------- | ---------- | -------- | ---- |
+| 263. [ugly number](https://leetcode.com/problems/ugly-number/) | EASY | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution263.kt) |  | |
 | 1544. [make the string great](https://leetcode.com/problems/make-the-string-great/) | EASY | 1344 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution1544.kt) | stack | |
 | 976. [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | EASY | 1340 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution976.kt) |  | |
 | 1047. [remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | EASY | 1286 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution1047.kt) | stack, O(n) | |
@@ -29,6 +30,7 @@
 | 1328. [break a palindrome](https://leetcode.com/problems/break-a-palindrome/) | MEDIUM | 1473 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution1328.kt) |  | |
 | 433. [minimum genetic mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | MEDIUM | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution433.kt) |  | |
 | 49. [group anagrams](https://leetcode.com/problems/group-anagrams/) | MEDIUM | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution49.kt) |  | |
+| 1201. [ugly number iii](https://leetcode.com/problems/ugly-number-iii/) | MEDIUM | 2039 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution1201.kt) | lcm, gcd, binary-search | |
 | 947. [most stones removed with same row or column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | MEDIUM | 2034 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution947.kt) | union find | |
 | 692. [top k frequent words](https://leetcode.com/problems/top-k-frequent-words/) | MEDIUM | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution692.kt) |  | |
 | 2104. [sum of subarray ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) | MEDIUM | 1504 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution2104.kt) | two monotonic stacks, O(n) | |
