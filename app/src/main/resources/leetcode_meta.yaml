@@ -184,3 +184,12 @@
   link: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
   rating: 1324
 
+- id: 263
+  level: EASY
+  link: https://leetcode.com/problems/ugly-number/
+
+- id: 1201
+  level: MEDIUM
+  link: https://leetcode.com/problems/ugly-number-iii/
+  rating: 2039
+  hint: lcm, gcd, binary-search
