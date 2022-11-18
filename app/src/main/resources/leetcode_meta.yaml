@@ -192,4 +192,4 @@
   level: MEDIUM
   link: https://leetcode.com/problems/ugly-number-iii/
   rating: 2039
-  hint: lcm, gcd, binary-search
+  hint: lcm, gcd, binary-search. For Java/Kotlin, use Long instead of Int
