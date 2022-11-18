@@ -34,7 +34,8 @@ fun main() {
         builder.append("${q.hint?:""} | ")
         builder.append("|\n")
     }
-    File("./solution_list.md").writeText(builder.toString())
+
+    File("../docs/README.md").writeText(builder.toString())
 }
 
 class Solution {
