@@ -21,6 +21,7 @@
 | 981. [time based key value store](https://leetcode.com/problems/time-based-key-value-store/) | MEDIUM | 1574 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution981.kt) |  | |
 | 1239. [maximum length of a concatenated string with unique characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | MEDIUM | 1719 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution1239.kt) |  | |
 | 343. [integer break](https://leetcode.com/problems/integer-break/) | MEDIUM | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution343.kt) |  | |
+| 279. [perfect squares](https://leetcode.com/problems/perfect-squares/) | MEDIUM | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution279.kt) |  | |
 | 223. [rectangle area](https://leetcode.com/problems/rectangle-area/) | MEDIUM | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution223.kt) | interval overlapping problem | |
 | 351. [android unlock patterns](https://leetcode.com/problems/android-unlock-patterns/) | MEDIUM | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution351.kt) |  | |
 | 353. [design snake game](https://leetcode.com/problems/design-snake-game/) | MEDIUM | 0 | [link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution353.kt) |  | |

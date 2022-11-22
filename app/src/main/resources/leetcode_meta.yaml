@@ -199,3 +199,8 @@
   link: https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
   rating: 1638
   hint: BFS
+
+- id: 279
+  level: MEDIUM
+  link: https://leetcode.com/problems/perfect-squares/
+
