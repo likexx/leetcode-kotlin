@@ -29,7 +29,7 @@ class Solution337 {
                 }
 
                 if (usingRoot) {
-                    cache[key] = node?.`val`+take(node?.left,false)+take(node?.right,false)
+                    cache[key] = node?.`val`!! + take(node?.left,false)+take(node?.right,false)
                 } else {
                     var v1=take(node?.left, false)+take(node?.right, false)
                     var v2=take(node?.left, true)+take(node?.right, false)

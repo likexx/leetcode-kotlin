@@ -36,6 +36,7 @@ fun main() {
     }
 
     File("../docs/README.md").writeText(builder.toString())
+    File("../docs/scripts/solution_data.js").writeText("const LeetcodeSolutionList = ${LeetcodeMetaConfig.convertToJson()}")
 }
 
 class Solution {

@@ -1,5 +1,6 @@
 package solution.annotation
 
+import com.fasterxml.jackson.core.JsonFactory
 import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory
@@ -37,5 +38,10 @@ object LeetcodeMetaConfig
 
     fun getQuestionList(): List<LeetcodeMetaInfo> {
         return leetcodeMetatable.values.toList()
+    }
+
+    fun convertToJson(): String {
+        val mapper = ObjectMapper(JsonFactory()).registerKotlinModule()
+        return mapper.writeValueAsString(leetcodeMetatable)
     }
 }

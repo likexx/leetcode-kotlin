@@ -8,11 +8,18 @@
 
 plugins {
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
-    id 'org.jetbrains.kotlin.jvm' version '1.6.21'
+    id 'org.jetbrains.kotlin.jvm' version '1.7.21'
+    id 'java'
 
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
+
 }
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(17)
+}
+
 
 repositories {
     // Use Maven Central for resolving dependencies.
@@ -49,4 +56,11 @@ application {
 
 test {
     testLogging.showStandardStreams = true
+}
+
+task runServer(type: JavaExec) {
+    group = "Execution"
+    description = "Run the main class for Server"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'solution.server.AppKt'
 }
