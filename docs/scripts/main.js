@@ -46,7 +46,14 @@ class QuestionList extends React.Component {
     getSolutions() {
         const solutions = []
         for (const key in LeetcodeSolutionList) {
-            solutions.push(LeetcodeSolutionList[key])
+            const s = LeetcodeSolutionList[key]
+
+            const paths = s.link.split("/").filter( p => p.length>0 )
+            const lastPath = paths[paths.length-1]
+            const name = lastPath.split("-").filter( p=>p.length>0 ).join(" ")
+            s["name"] = name
+
+            solutions.push(s)
         }
         return solutions
     }

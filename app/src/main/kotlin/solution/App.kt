@@ -8,34 +8,7 @@ import solution.annotation.LeetcodeMetaInfo
 import java.io.File
 import java.util.PriorityQueue
 
-fun extractQuestionNameFromUrl(url: String): String {
-    val paths = url.split("/").filter { it.isNotEmpty() }
-    val tokens = paths.last().split("-")
-    return tokens.joinToString(" ")
-}
 fun main() {
-    val questions = LeetcodeMetaConfig.getQuestionList().groupBy { it.level }
-    val sortedQuestions = mutableListOf<LeetcodeMetaInfo>()
-    for (k in arrayOf("EASY", "MEDIUM", "HARD")) {
-        sortedQuestions.addAll(questions.getOrDefault(k, listOf()))
-    }
-
-    val builder = StringBuilder()
-    builder.append("| Leetcode Link | Difficulty | [ELO Rating](https://zerotrac.github.io/leetcode_problem_rating) | Solution | Hint |\n")
-    builder.append("| ------------- | ---------- | ---------- | -------- | ---- |\n")
-
-    for (q in sortedQuestions) {
-        val name = extractQuestionNameFromUrl(q.link)
-        builder.append("| ")
-        builder.append("${q.id}. [$name](${q.link}) | ")
-        builder.append("${q.level} | ")
-        builder.append("${q.rating} | ")
-        builder.append("[link](https://github.com/likexx/leetcode-kotlin/blob/main/app/src/main/kotlin/solution/Solution${q.id}.kt) | ")
-        builder.append("${q.hint?:""} | ")
-        builder.append("|\n")
-    }
-
-//    File("../docs/README.md").writeText(builder.toString())
     File("../docs/scripts/solution_data.js").writeText("const LeetcodeSolutionList = ${LeetcodeMetaConfig.convertToJson()}")
 }
 
