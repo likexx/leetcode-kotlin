@@ -203,4 +203,9 @@
 - id: 279
   level: MEDIUM
   link: https://leetcode.com/problems/perfect-squares/
+  hint: dp, O(n*sqrt(n))
 
+- id: 907
+  level: MEDIUM
+  link: https://leetcode.com/problems/sum-of-subarray-minimums/
+  hint: monotonic stack, follow up to 2104.
