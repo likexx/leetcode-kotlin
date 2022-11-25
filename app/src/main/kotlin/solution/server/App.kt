@@ -4,11 +4,26 @@ import com.sun.net.httpserver.HttpServer
 import java.io.File
 import java.net.InetSocketAddress
 import java.nio.file.Files
-import java.nio.file.Path
 import java.nio.file.Paths
-import kotlin.io.path.exists
+import org.http4k.routing.ResourceLoader.Companion.Directory
+import org.http4k.routing.bind
+import org.http4k.routing.routes
+import org.http4k.routing.static
+import org.http4k.server.Jetty
+import org.http4k.server.asServer
 
 fun main() {
+    startHttp4kServer()
+}
+
+fun startHttp4kServer() {
+    routes(
+        "/" bind static(Directory("../docs"))
+    ).asServer(Jetty(8080)).start()
+    println("server started...")
+}
+
+fun startSimpleHttpServer() {
     val baseDir = Paths.get(Paths.get("").toAbsolutePath().toString(), "..", "docs").toString()
     val server = HttpServer.create(InetSocketAddress(8080), 0)
 
@@ -35,4 +50,5 @@ fun main() {
 
     server.start()
     println("server started")
+
 }
