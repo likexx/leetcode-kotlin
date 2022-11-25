@@ -209,3 +209,4 @@
   level: MEDIUM
   link: https://leetcode.com/problems/sum-of-subarray-minimums/
   hint: monotonic stack, follow up to 2104.
+  rating: 1975

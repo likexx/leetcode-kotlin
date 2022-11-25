@@ -115,7 +115,8 @@ class QuestionList extends React.Component {
     render() {
         return (
             <div>
-                Daily Leetcode Solution in Kotlin
+                Daily Leetcode Solution in Kotlin<br/>
+                <span style={{fontColor: 'white', fontSize: '12px'}}>* Elo rating is from the unofficial <a href={"https://zerotrac.github.io/leetcode_problem_rating"}>Leetcode Elo Rating</a></span>
                <table>
                    <thead>
                        <tr>
