@@ -34,7 +34,8 @@ class QuestionList extends React.Component {
         super(props);
         this.state = {
             sortKey: "id",
-            sorted: []
+            sorted: [],
+            total: 0
         }
 
         this.getSolutions = this.getSolutions.bind(this)
@@ -65,7 +66,8 @@ class QuestionList extends React.Component {
         })
         this.setState({
             sortKey: "id",
-            sorted: []
+            sorted: [],
+            total: solutions.length
         }, () => {
             this.setState({
                 sorted: solutions
@@ -85,7 +87,8 @@ class QuestionList extends React.Component {
         })
         this.setState({
             sortKey: "level",
-            sorted: []
+            sorted: [],
+            total: solutions.length
         }, () => {
             this.setState({
                 sorted: solutions
@@ -100,7 +103,8 @@ class QuestionList extends React.Component {
         })
         this.setState({
             sortKey: "rating",
-            sorted: []
+            sorted: [],
+            total: solutions.length
         }, () => {
             this.setState({
                 sorted: solutions
@@ -116,6 +120,7 @@ class QuestionList extends React.Component {
         return (
             <div>
                 Daily Leetcode Solution in Kotlin<br/>
+                Total: { this.state.total }<br/>
                 <span style={{fontColor: 'white', fontSize: '12px'}}>* Elo rating is from the unofficial <a href={"https://zerotrac.github.io/leetcode_problem_rating"}>Leetcode Elo Rating</a></span>
                <table>
                    <thead>
