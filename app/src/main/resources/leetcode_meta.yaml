@@ -220,3 +220,7 @@
   level: EASY
   link: https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
   rating: 1370
+
+- id: 2128
+  level: MEDIUM
+  link: https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/
