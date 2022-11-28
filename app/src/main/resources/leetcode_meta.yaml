@@ -210,3 +210,13 @@
   link: https://leetcode.com/problems/sum-of-subarray-minimums/
   hint: monotonic stack, follow up to 2104.
   rating: 1975
+
+- id: 2225
+  level: MEDIUM
+  link: https://leetcode.com/problems/find-players-with-zero-or-one-losses/
+  rating: 1316
+
+- id: 914
+  level: EASY
+  link: https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
+  rating: 1370
