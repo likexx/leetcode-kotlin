@@ -229,3 +229,4 @@
 - id: 380
   level: MEDIUM
   link: https://leetcode.com/problems/insert-delete-getrandom-o1/
+  hint: hashmap + arraylist, kind like LRU
