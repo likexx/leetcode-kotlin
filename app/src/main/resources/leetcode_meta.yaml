@@ -224,3 +224,8 @@
 - id: 2128
   level: MEDIUM
   link: https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/
+  hint: using gcd for best optimized solution
+
+- id: 380
+  level: MEDIUM
+  link: https://leetcode.com/problems/insert-delete-getrandom-o1/
