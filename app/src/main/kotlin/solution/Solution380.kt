@@ -1,7 +1,6 @@
 package solution
 
 import solution.annotation.Leetcode
-import kotlin.random.Random
 
 class Solution380 {
     @Leetcode(380)
@@ -24,13 +23,18 @@ class Solution380 {
             if (!nums.contains(v)) {
                 return false
             }
-            indexes.removeAt(nums[v]!!)
+            val i = nums[v]!!
+            val last = indexes.last()
+            indexes[i] = last
+            indexes.removeAt(indexes.size - 1)
+            nums[last]=i
+
             nums.remove(v)
             return true
         }
 
         fun getRandom(): Int {
-            val i = Random.nextInt(0, nums.size)
+            val i = kotlin.random.Random.nextInt(0, nums.size)
             return indexes[i]
         }
 

@@ -7,7 +7,7 @@ import kotlin.test.assertTrue
 
 class Test380 : TestBase<Solution380.RandomizedSet>(Solution380.RandomizedSet()) {
     @Test
-    fun test() {
+    fun test1() {
         assertEquals(true, solution.insert(1))
         assertEquals(false, solution.remove(2))
         assertEquals(true, solution.insert(2))
@@ -16,5 +16,16 @@ class Test380 : TestBase<Solution380.RandomizedSet>(Solution380.RandomizedSet())
         assertEquals(true, solution.remove(1))
         assertEquals(false, solution.insert(2))
         assertEquals(2, solution.getRandom())
+    }
+
+    @Test
+    fun test2() {
+        val s = Solution380.RandomizedSet()
+        assertTrue { s.insert(0) }
+        assertTrue { s.insert(1) }
+        assertTrue { s.remove(0) }
+        assertTrue { s.insert(2) }
+        assertTrue { s.remove(1) }
+        assertEquals(2, s.getRandom())
     }
 }
