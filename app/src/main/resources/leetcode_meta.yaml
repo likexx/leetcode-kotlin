@@ -230,3 +230,14 @@
   level: MEDIUM
   link: https://leetcode.com/problems/insert-delete-getrandom-o1/
   hint: hashmap + arraylist, kind like LRU
+
+- id: 1207
+  level: EASY
+  link: https://leetcode.com/problems/unique-number-of-occurrences/
+  rating: 1195
+
+- id: 1255
+  level: HARD
+  link: https://leetcode.com/problems/maximum-score-words-formed-by-letters/
+  rating: 1881
+  hint: DFS is straightforward with some optimizations. It could be solved using DP similar to knapsack problem, but I don't see much improvement in this case.
