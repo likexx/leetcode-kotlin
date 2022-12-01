@@ -241,3 +241,14 @@
   link: https://leetcode.com/problems/maximum-score-words-formed-by-letters/
   rating: 1881
   hint: DFS is straightforward with some optimizations. It could be solved using DP similar to knapsack problem, but I don't see much improvement in this case.
+
+- id: 1704
+  level: EASY
+  link: https://leetcode.com/problems/determine-if-string-halves-are-alike/
+  rating: 1207
+
+- id: 1392
+  level: HARD
+  link: https://leetcode.com/problems/longest-happy-prefix/
+  rating: 1876
+  hint: prefix calculating in KMP using DP. Details can be found at <a href='https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching'>KMP in GeeksforGeeks</a>
