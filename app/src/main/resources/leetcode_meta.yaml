@@ -251,4 +251,4 @@
   level: HARD
   link: https://leetcode.com/problems/longest-happy-prefix/
   rating: 1876
-  hint: prefix calculating in KMP using DP. Details can be found at <a href='https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching'>KMP in GeeksforGeeks</a>
+  hint: prefix calculating in KMP using DP. Details can be found at https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching
