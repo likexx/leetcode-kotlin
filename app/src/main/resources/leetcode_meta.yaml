@@ -252,3 +252,9 @@
   link: https://leetcode.com/problems/longest-happy-prefix/
   rating: 1876
   hint: prefix calculating in KMP using DP. Details can be found at https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching
+
+- id: 1657
+  level: MEDIUM
+  link: https://leetcode.com/problems/determine-if-two-strings-are-close/
+  rating: 1530
+  hint: compare the frequency domain counter. Try to take only O(1) space.
