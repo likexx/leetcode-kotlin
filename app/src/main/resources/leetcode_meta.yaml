@@ -258,3 +258,13 @@
   link: https://leetcode.com/problems/determine-if-two-strings-are-close/
   rating: 1530
   hint: compare the frequency domain counter. Try to take only O(1) space.
+
+- id: 876
+  level: EASY
+  link: https://leetcode.com/problems/middle-of-the-linked-list/
+  rating: 1231
+
+- id: 2130
+  level: MEDIUM
+  link: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
+  rating: 1317
