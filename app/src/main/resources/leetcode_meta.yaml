@@ -268,3 +268,7 @@
   level: MEDIUM
   link: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
   rating: 1317
+
+- id: 328
+  level: MEDIUM
+  link: https://leetcode.com/problems/odd-even-linked-list/

@@ -26,3 +26,15 @@ fun buildList(vararg arr: Int): ListNode? {
 
     return firstNode
 }
+
+fun iterateList(head: ListNode?) : List<Int> {
+    val list = mutableListOf<Int>()
+    if (head != null) {
+        var p = head
+        while (p!=null) {
+            list.add(p.value)
+            p = p.next
+        }
+    }
+    return list
+}
