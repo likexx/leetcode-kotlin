@@ -272,3 +272,9 @@
 - id: 328
   level: MEDIUM
   link: https://leetcode.com/problems/odd-even-linked-list/
+
+- id: 938
+  level: EASY
+  link: https://leetcode.com/problems/range-sum-of-bst/
+  rating: 1335
+  hint: either dfs or preorder works at similar performance. dfs is more concise.
