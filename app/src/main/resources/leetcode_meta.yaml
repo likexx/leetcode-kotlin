@@ -278,3 +278,7 @@
   link: https://leetcode.com/problems/range-sum-of-bst/
   rating: 1335
   hint: either dfs or preorder works at similar performance. dfs is more concise.
+
+- id: 355
+  level: MEDIUM
+  link: https://leetcode.com/problems/design-twitter/
