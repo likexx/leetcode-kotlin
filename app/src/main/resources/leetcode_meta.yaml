@@ -286,3 +286,8 @@
 - id: 356
   level: MEDIUM
   link: https://leetcode.com/problems/line-reflection/
+
+- id: 1143
+  level: MEDIUM
+  link: https://leetcode.com/problems/longest-common-subsequence/
+  hint: classic DP problem
