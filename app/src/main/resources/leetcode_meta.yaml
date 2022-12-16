@@ -291,3 +291,8 @@
   level: MEDIUM
   link: https://leetcode.com/problems/longest-common-subsequence/
   hint: classic DP problem
+
+- id: 357
+  level: MEDIUM
+  link: https://leetcode.com/problems/count-numbers-with-unique-digits/
+  hint: consider how the number changes. the available digits are keeping decreasing, so the choice is limited.
