@@ -301,3 +301,9 @@
   level: EASY
   link: https://leetcode.com/problems/find-if-path-exists-in-graph/
   hint: bfs is trivial. you may want to try union find just for exercise.
+
+- id: 886
+  level: MEDIUM
+  link: https://leetcode.com/problems/possible-bipartition/
+  hint: bi-partion with colorizing technique
+  rating: 1794
