@@ -316,3 +316,8 @@
         First this is a tree, not a graph, so each edge can break it into 2 subtrees. Then we think about the relations between the 2 connected subtrees. 
         We can come up with the formula: distances[x] = x@X + y@Y + #(Y), where X,Y are the two subtrees, and x,y are the root for X and Y. #(Y) is the total number of nodes in subtree Y.
         Then we can further calculate the # of children for each node, and the total path sum for root, and break down into each sub-level children from root.
+
+- id: 96
+  level: MEDIUM
+  link: https://leetcode.com/problems/restore-ip-addresses/
+  hint: just dfs
